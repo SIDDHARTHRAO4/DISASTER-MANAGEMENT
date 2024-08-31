@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Notifications - Disaster Management App</title>
+</head>
+<body>
+    <h2>Send Notifications to Region</h2>
+    <form action="dashboard.html" method="POST">
+        <label for="region">Select Region:</label>
+        <select id="region" name="region">
+            <option value="region1">Region 1</option>
+            <option value="region2">Region 2</option>
+            <option value="region3">Region 3</option>
+        </select>
+        <br><br>
+        <label for="message">Notification Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <br><br>
+        <input type="submit" value="Send Notification">
+    </form>
+    <a href="dashboard.html">Back to Dashboard</a>
+</body>
+</html>
